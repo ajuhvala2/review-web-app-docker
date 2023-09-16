@@ -3,7 +3,7 @@ FROM node:latest
 #defining working directory
 WORKDIR /app
 # using the root user to execute the container image
-USER root
+#USER root
 # copying the nodejs dependnecy file
 COPY package.json /app/
 # installing npm for nodejs
